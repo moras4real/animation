@@ -1,0 +1,71 @@
+body {     
+    background-image: url('images/house.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1600px;
+    overflow-y: hidden;
+    margin: 0px;
+    
+}
+
+.blackroad {
+    border: 2px solid none;
+    width: 1600px;    
+    height:  150px;
+    position: relative;
+    background-color:black;
+    margin-top: 140px;
+    position: fixed;
+}
+
+.park {    
+    border: 2px solid none;
+    width: 0px;
+    height: 0px;
+    position: relative;
+    background-color: none;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-name: car;
+    animation-iteration-count: infinite;    
+    padding-top: 440px;       
+ }  
+ 
+
+@keyframes car {
+    from { 
+        left: 1500px;
+    }
+    to {
+        left:  -1300px;
+        background-color: none;
+    }
+}
+
+
+
+.airport {    
+    border: 2px solid none;
+    width: 0px;
+    height: 0px;
+    position: relative;
+    background-color: none;
+    animation-duration: 7s;
+    animation-delay: 0s;
+    animation-name: plane;
+    animation-iteration-count: infinite;    
+    padding-top: 0px;       
+ }  
+ 
+
+@keyframes plane {
+    from { 
+        left: 1500px;
+    }
+    to {
+        left:  -2000px;
+        background-color: none;
+    }
+}
+
+
