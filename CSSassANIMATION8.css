@@ -143,7 +143,7 @@ body {
     animation-delay: 0s;
     animation-name: plane;
     animation-iteration-count: infinite;    
-    padding-top: 5px;       
+    padding-top: 4px;       
  }  
 
 @keyframes plane {
